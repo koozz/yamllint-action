@@ -1,0 +1,10 @@
+---
+name: "GitHub yamllint check"
+description: "Run yamllint with GitHub formatted output."
+author: "Jan van den Berg"
+branding:
+  icon: "check-square"
+  color: "green"
+runs:
+  using: 'docker'
+  image: docker://ghcr.io/koozz/yamllint-action:1.0.0
