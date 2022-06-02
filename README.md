@@ -1,5 +1,10 @@
 # yamllint-action
 
+> **Deprecated: This action is no longer needed**
+> 
+> usage of `ubuntu-latest` with a step that defines `run: yamllint --config-file .yamllint --format github .` will suffice.
+
+
 To prevent each build from building a yamllint container over-and-over-again,
 this action will use a hosted prebuilt container.
 
